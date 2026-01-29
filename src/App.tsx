@@ -65,7 +65,7 @@ TOTAL PROYECTO: ${currencyFormatter.format(precioProyecto)}
   return (
     <div className="app-container">
       <header className="header">
-        <h1>Calculadora de Precio/Hora</h1>
+        <h1>Calculadora de Precio/Hora (DEPLOY OK)</h1>
         <p>Define tu valor y genera una propuesta justa.</p>
       </header>
 
