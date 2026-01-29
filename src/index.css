@@ -1,0 +1,26 @@
+/* Reset básico y configuración global */
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Eliminar márgenes por defecto y asegurar altura completa para el fondo */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Reset de elementos interactivos si es necesario */
+button,
+input,
+textarea {
+  font-family: inherit;
+}
